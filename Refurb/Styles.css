@@ -1,0 +1,744 @@
+
+/* GENERELLE REGLER FOR ALLE SIDER */
+*{
+    margin:0;
+    padding:0;
+}
+
+/* HEADER: */
+
+header{
+    width:100%;
+    height: 45px;
+    background-color: #DDEDDE;
+
+    display:flex;
+    justify-content:space-around;
+    border-bottom:0.5px solid black;
+   
+    padding-top: 20px;
+    padding-bottom:20px;
+
+}
+
+header > img {
+    margin-right:10px;
+}
+
+header > nav{
+    display:flex;
+    gap: 30px;
+    padding-left:250px;
+}
+
+header > nav > a{
+    text-decoration:none;
+    color:black;
+    padding:10px;
+    letter-spacing:1pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:13pt;
+}
+
+
+/* spacing af navbaren */
+nav{
+  display: flex;
+  gap: 30px;
+  padding-left:250px;
+}
+
+nav > a{
+  color: black;
+  padding: 10px;
+  font-size: 12pt;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1pt;
+  text-decoration: none;
+}
+
+
+/* BURGER MENU (EKSTERN HTML SIDE) */
+
+#burgermenubody{
+    background-color:#DDEDDE;
+    
+  }
+  
+  #burgermenu{
+    display:flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20%;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    
+  }
+  
+  #burgermenunavikoner{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom:40px;
+  }
+  
+  .burgermenunavikon{
+    width: 40px;
+    height: 40px;
+  }
+  
+  #burgermenuexit > img{
+    width: 30px;
+    height: 30px;
+    padding: 6%;
+  }
+  
+  #mobilemenubutton > img{
+    width: 40px;
+    height: 40px;
+  }
+
+/* Billeder*/
+img {
+    max-width: 100%;
+    max-height: 100%;
+   }
+   .forsideb {
+    max-width: 1100px;
+
+    padding-top: 50px;
+    padding-bottom:50px;
+    margin:0 auto;
+
+    animation: fadeIn;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+   
+
+   .kontaktb {
+    max-width: 1100px;
+    position:relative;
+    margin: auto;
+    margin-left: 150px;
+
+    animation: fadeIn;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
+.personaleb {
+    max-width: 1100px;
+    position:relative;
+    margin: auto;
+    margin-left: 150px;
+
+    animation: fadeIn;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
+.anmeldelserb {
+  max-width: 1000px;
+  position:relative;
+  margin: auto;
+  margin-left: 250px;
+
+  animation: fadeIn;
+    animation-duration: 3s;
+    animation-delay: 0s;
+ 
+}
+
+ /* GIF */
+ .gif {
+  max-width: 1100px;
+  margin-left: 150px;
+ 
+}
+
+  /* Knapper */
+
+  .forsideb .btn {
+    margin:-90px auto 40px auto;
+    display: block;
+    position:relative;
+    z-index:1;
+    
+  }
+  
+  
+  .btn {
+    margin: 30px auto 0 auto;
+    width: max-content;
+    display: block;
+    background-color:#29456B;
+    color: white;
+    font-size: 16px;
+    font-family:'Gagalin', sans-serif;                                                                 
+    padding: 16px 30px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+      
+     
+
+    }
+    
+  .btn.btn:hover {
+      background-color: black;
+      color: white;
+    }
+
+  /* Tekstbokse*/    
+  .tekstbox {
+    background-color: #DDEDDE;
+    max-width: 600px;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+    
+    }
+
+
+.tekstbox1 {
+  background-color: #DDEDDE;
+    max-width: 600px;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+
+  .tekstbox2 {
+    background-color: #F7D8D0;
+    width: 600px;
+    padding: 50px;
+   
+    top: 100%;
+    left: 25%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin:0 auto;
+
+    text-align: center;
+  }
+
+  .tekstbox3 {
+    background-color: #DDEDDE;
+    width: 600px;
+    padding: 50px;
+    position:absolute;
+   
+    top: 105%;
+    left: 25%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin:0 auto;
+
+    text-align: center;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  
+  .flex-container > div {
+    width: 500px;
+    padding: 50px;
+    top: 100%;
+    left: 25%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin:0 auto;
+
+    font-family:'Didact Gothic', sans-serif;
+  }
+
+  .flex-container2 {
+    display:flex;
+    justify-content:space-around;
+  }
+
+  .flex-container2 > div {
+    width: 500px;
+    padding: 150px;
+    top: 100%;
+    left: 25%;
+    
+ 
+    margin-left:auto;
+    margin-right: auto;
+    margin:0 auto;
+
+    font-family:'Didact Gothic', sans-serif;
+  }
+
+  .omos {
+    column-count: 2;
+    padding: 150px;
+    column-gap: 80px;
+    
+  }
+
+  .Produkts {
+    column-count: 3;
+    column-gap: 80px;
+
+    width: 1000px;
+    margin-left:250px;
+    border-top:0.5px solid black;
+    border-bottom:0.5px solid black;
+    
+  }
+
+  .produkts2 {
+    background-color: #F7D8D0;
+    column-gap: 80px;
+
+    width: 900px;
+    padding: 50px;
+    margin-left: 250px;
+  
+  }
+
+  .produkts3 {
+    column-gap: 80px;
+
+    width: 1000px;
+    margin-left:250px;
+    border-top:0.5px solid black;
+    
+  }
+
+
+
+/* FONTS */
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Roboto Condensed', sans-serif;
+    color:black;
+}
+
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Roboto Condensed', sans-serif;
+    color:black;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family:'Roboto Condensed', sans-serif;
+    color:black;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-family:'Roboto Condensed', sans-serif;
+    color:black;
+}
+
+p {
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    color:black;
+}
+
+/* GALLERI */
+
+#galleriresponsiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .responsive {
+    padding: 10px;
+    width: 25%;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  @keyframes fadeIn{
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  #galleriresponsiv{
+    animation: fadeIn;
+    animation-duration: 3s;
+    animation-delay: 0s;
+  }
+  
+
+/* KONTAKTFORMULAR */
+
+.contactcontainer {
+  font-family: 'Didact Gothic', sans-serif;
+  margin-bottom: 120px;
+}
+  .kontakt{
+    display:flex;
+    margin-left:650px;
+    padding-top:20px;
+}
+
+
+  /* Generelle regler for kontaktformularerne */
+  input[type=text], select, textarea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing:border-box;
+    margin-top: 6px; 
+    margin-bottom: 10px; 
+    resize: vertical;
+    font-family: 'Didact Gothic', sans-serif;
+  }
+  
+  /* Styling af "send besked" knappen */
+  input[type=submit] {
+    background-color:#29456B;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Didact Gothic', sans-serif;
+  }
+  
+  /* hover på "send knappen"*/
+  input[type=submit]:hover {
+    background-color:black;
+  }
+  
+  
+
+  /* HERO SLIDESHOW*/
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #29456B;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color:white;
+  }
+  
+  /* Caption text */
+
+  .text {
+    color: black;
+    font-size: 20pt;
+    top:15%;
+    text-align: center;
+    font-family:'Roboto Condensed', sans-serif;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: #29456B;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: lightblue;
+  }
+  
+   /* Fade animation på slideshow*/
+   @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  .slideshow-container {
+    animation: fadeIn;
+    animation-duration: 3s;
+    animation-delay: 0s;
+  }
+
+
+  /* FOOTER */
+
+  footer{
+    background-color: #DDEDDE;
+    
+    padding-top:40px;
+    width:100%;
+
+    text-align:left;
+   
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    border-top: 0.5px solid black;
+  }
+  
+  footer > div > p{
+    margin-top:20px;
+    margin-bottom:20px;
+    color:black;
+    text-align: left;
+    font-size: 10pt;
+    
+  }
+  
+  footer > div > p > a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  footer > div > a > img{
+    max-height:50px;
+    margin-top:20px;
+  }
+
+ 
+  
+/* MEDIA QUERIES*/          
+
+
+@media only screen and (min-width:1000px){
+ 
+  /* header */
+ #mobilemenubutton{
+     display: none;
+    }
+  }
+
+@media only screen and (max-width:1000px){
+ 
+  /* header */
+  #desktopmenu{
+      display: none;
+  }
+
+ /* footer */
+ footer{
+  display: flex;
+  flex-direction: column;
+}
+
+footer > .footer {
+ display: flex;
+ flex-direction: column;
+ margin-left: 70px;
+ margin-right: 70px;
+}
+
+footer > .contactcontainer {
+  margin-left:20px;
+  margin-right:20px;
+}
+}
+
+
+@media only screen and (max-width:550px){
+  
+  /* header */
+  div > #searchnavikon{
+      display: none;
+  }
+
+/* Billeder */
+.forsideb{
+  max-width:500px;
+}
+
+.anmeldelserb{
+  max-width:400px;
+  margin-left: 50px;
+  margin-right:50px;
+}
+
+.personaleb{
+  max-width:400px;
+  margin-left: 50px;
+  margin-right:50px;
+}
+
+.gif{
+  max-width:400px;
+  margin-left: 50px;
+  margin-right:50px;
+}
+
+.kontaktb{
+  max-width:400px;
+  margin-left: 50px;
+  margin-right:50px;
+}
+
+/* Tekstbokse*/
+
+.tekstbox {
+  max-width: 400px;
+  top:80%;
+  left: 35px;
+padding: 15px;
+  
+}
+
+.tekstbox1 {
+  max-width: 250px;
+  top:80%;
+  left: 35px;
+padding: 35px;
+font-size: 12px;
+  
+}
+
+.tekstbox2 {
+  max-width:400px;
+  top: 80%;
+  left: 35px;
+  padding: 15px;
+  font-size: 10px;
+  
+}
+
+.tekstbox3 {
+  max-width:400px;
+  top: 60%;
+  left: 35px;
+  padding: 15px;
+  font-size: 10px;
+  
+}
+
+.produkts2 {
+  column-count: 1;
+  column-gap: 10px;
+
+  max-width: 400px;
+  padding: 15px;
+  margin-left: 35px;
+
+}
+
+.Produkts {
+  column-count: 1;
+  column-gap: 10px;
+
+  max-width: 400px;
+  padding: 15px;
+  margin-left: 35px;
+
+}
+
+.produkts3 {
+column-gap: 10px;
+
+max-width: 400px;
+margin-left:35px;
+
+}
+
+.omos {
+  column-count: 1;
+  column-gap: 10px;
+
+  max-width: 400px;
+  padding: 15px;
+  margin-left: 35px;
+  
+  }
+
+
+
+/* Knapper*/
+.btn .btn {
+  font-size: 10px;
+  padding: 10px 24px;                                                         
+}
+
+.forsideb .btn {
+  margin:-80px auto 40px auto;
+  
+}
+
+/* Galleri*/
+.responsive {
+  width: 80%;
+  
+}
+
+}
+
+
+@media only screen and (max-width:375px){
+ 
+  /* header */
+  #mobilemenubutton {
+      width: 40px;
+      height: 40px;
+  }
+
+  #navikoner{
+      gap:10px;
+  }
+}
+
+@media only screen and (min-width:320px){
+ 
+  /* header */
+  #mobilemenubutton {
+      width: 30px;
+      height: 30px;
+  }
+
+  #navikoner{
+      gap:5px;
+  }
+}
+
